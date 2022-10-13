@@ -1,5 +1,4 @@
 package com.bridgelabz.HashTables;
-
 public class HashTableImplementation<K, V> {
     Node<K, V> head;
     Node<K, V> tail;
@@ -55,13 +54,5 @@ public class HashTableImplementation<K, V> {
     @Override
     public String toString() {
         return "MyLinkedListNodes{" + head + "} ";
-    }
-
-    public Node<K, V> getTail() {
-        return tail;
-    }
-
-    public void setTail(Node<K, V> tail) {
-        this.tail = tail;
     }
 }

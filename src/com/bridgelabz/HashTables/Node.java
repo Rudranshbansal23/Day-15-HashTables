@@ -1,5 +1,6 @@
 package com.bridgelabz.HashTables;
 
+
 public class Node<K, V> {
 
     K key;
